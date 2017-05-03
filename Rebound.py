@@ -2,7 +2,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 print('Data source is from a Baltic Sea shoreline near Blankaholm, Kalmar Province, Sweden')
 ##find and read data
-data = pd.read_excel('../../data/Fennoscandia_rebound.xlsx', header = 14)
+data = pd.read_excel('../../Comp_Methods-HW2/Fennoscandia_rebound.xlsx', header = 14)
 
 #labels!! goal in naming is to combine descriptions with making things
 #reasonable to type in later portions of the code
